@@ -5,9 +5,9 @@ if [ ! -f /usr/bin/chef-client ]; then
   aptitude install -y ruby2.0.0 build-essential wget
 fi
 
-gem update --no-rdoc --no-ri
-gem install ohai --no-rdoc --no-ri --verbose
-gem install chef --no-rdoc --no-ri --verbose <%= bootstrap_version_string %>
+gem update --no-wrapper
+gem install ohai --no-wrapper --verbose
+gem install chef --no-wrapper --verbose <%= bootstrap_version_string %>
 
 mkdir -p /etc/chef 
 
