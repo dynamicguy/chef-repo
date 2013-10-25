@@ -29,11 +29,11 @@ Your server has:
 
 ### Installation
 
-Clone the repository onto your own workstation. I am using ```firmhouse_chef_repo``` as
+Clone the repository onto your own workstation. I am using ```dynamicguy_chef_repo``` as
 destination folder as an example.
 
 ```sh
-git clone git://github.com/firmhouse/rails4bp-chef-repo.git firmhouse_chef_repo
+git clone git://github.com/dynamicguy/chef-repo.git dynamicguy_chef_repo
 ```
 
 And initialize submodules which will fetch:
@@ -142,7 +142,7 @@ And you are deployed!
 The following steps will let you **set up or test your own Rails infrastructure
 in 5 - 10 minutes**. If something doesn't work or you need more instructions:
 
-**Please!** [Open an issue](https://github.com/firmhouse/rails4bp-chef-repo/issues) or email [michiel@firmhouse.com](mailto:michiel@firmhouse.com).
+**Please!** [Open an issue](https://github.com/dynamicguy/rails4bp-chef-repo/issues) or email [michiel@dynamicguy.com](mailto:michiel@dynamicguy.com).
 
 ## Resources and original authors
 
